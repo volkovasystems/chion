@@ -1,0 +1,29 @@
+{
+  "name": "chion",
+  "version": "0.0.0",
+  "description": "Get the child constructor.",
+  "main": "chion.deploy.js",
+  "support": "chion.support.js",
+  "authors": [
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "get",
+    "child",
+    "constructor",
+    "chion"
+  ],
+  "homepage": "https://github.com/volkovasystems/chion",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "portel": "^0.3.0",
+    "protype": "^0.21.0"
+  }
+}
