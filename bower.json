@@ -1,11 +1,13 @@
 {
   "name": "chion",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Get the child constructor.",
   "main": "chion.deploy.js",
   "support": "chion.support.js",
   "authors": [
-    "Richeve S. Bebedor <richeve.bebedor@gmail.com>"
+    "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+    "Vinse Vinalon"
   ],
   "license": "MIT",
   "keywords": [
@@ -23,7 +25,7 @@
     "tests"
   ],
   "dependencies": {
-    "portel": "^0.3.0",
-    "protype": "^0.21.0"
+    "portel": "^0.4.0",
+    "protype": "^0.22.0"
   }
 }
