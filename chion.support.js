@@ -37,7 +37,7 @@
               			"eMail": "richeve.bebedor@gmail.com",
               			"contributors": [
               				"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
-              				"Vinse Vinalon"
+              				"Vinse Vinalon <vinsevinalon@gmail.com>"
               			],
               			"repository": "https://github.com/volkovasystems/chion.git",
               			"test": "chion-test.js",
@@ -51,14 +51,12 @@
               
               	@include:
               		{
-              			"portel": "portel",
-              			"protype": "protype"
+              			"portel": "portel"
               		}
               	@end-include
-              */
+              */var _typeof2 = require("babel-runtime/helpers/typeof");var _typeof3 = _interopRequireDefault(_typeof2);function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 
 var portel = require("portel");
-var protype = require("protype");
 
 var chion = function chion(entity) {
 	/*;
@@ -72,10 +70,10 @@ var chion = function chion(entity) {
                                     	@end-meta-configuration
                                     */
 
-	if (protype(entity, OBJECT)) {
+	if ((typeof entity === "undefined" ? "undefined" : (0, _typeof3.default)(entity)) == "object") {
 		return entity.constructor;
 
-	} else if (protype(entity, FUNCTION)) {
+	} else if (typeof entity == "function") {
 		return entity;
 
 	} else {
