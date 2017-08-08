@@ -1,6 +1,6 @@
 {
   "name": "chion",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Get the child constructor.",
   "main": "chion.deploy.js",
   "support": "chion.support.js",
@@ -25,6 +25,6 @@
     "tests"
   ],
   "dependencies": {
-    "portel": "^0.4.0"
+    "portel": "^0.6.0"
   }
 }
