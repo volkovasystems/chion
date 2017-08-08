@@ -2,7 +2,7 @@
 const assert = require( "assert" );
 const chion = require( "./chion.js" );
 
-assert.equal( chion( Object ), Object, "should be equal Object" );
+assert.equal( chion( Object ), Object, "should be equal to Object" );
 
 class Orange {
 	constructor( ){
