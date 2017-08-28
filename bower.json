@@ -1,30 +1,27 @@
 {
-  "name": "chion",
-  "version": "0.3.0",
-  "description": "Get the child constructor.",
-  "main": "chion.deploy.js",
-  "support": "chion.support.js",
-  "authors": [
-    "Richeve S. Bebedor <richeve.bebedor@gmail.com>",
-    "John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
-    "Vinse Vinalon <vinsevinalon@gmail.com>"
-  ],
-  "license": "MIT",
-  "keywords": [
-    "get",
-    "child",
-    "constructor",
-    "chion"
-  ],
-  "homepage": "https://github.com/volkovasystems/chion",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
-  "dependencies": {
-    "portel": "^0.6.0"
-  }
+	"name": "chion",
+	"version": "0.3.0",
+	"description": "Get the child constructor.",
+	"main": "chion.deploy.js",
+	"support": "chion.support.js",
+	"authors": [
+		"Richeve S. Bebedor <richeve.bebedor@gmail.com>",
+		"John Lenon Maghanoy <johnlenonmaghanoy@gmail.com>",
+		"Vinse Vinalon <vinsevinalon@gmail.com>"
+	],
+	"license": "MIT",
+	"keywords": [
+		"get",
+		"child",
+		"constructor",
+		"chion"
+	],
+	"homepage": "https://github.com/volkovasystems/chion",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
 }
